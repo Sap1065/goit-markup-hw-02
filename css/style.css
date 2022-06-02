@@ -72,6 +72,7 @@ a{
     color: #FFFFFF;
     background: #2196F3;
     text-align: center;
+    cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -161,20 +162,18 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     color: #FFFFFF;
 }
 
-.footer-mail{
+.footer-link{
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
-.footer-tel{
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+.footer-link:hover,
+.footer-link:focus{
+    color: #2196F3;
 }
+
 
 .works-btn{
     font-family: 'Roboto', sans-serif;
