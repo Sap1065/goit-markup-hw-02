@@ -9,15 +9,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <title>WebStudio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="body">
+<body>
     <header class="header">
-        <a class="header-logo" href="https://sap1065.github.io/goit-markup-hw-02/" lang="en"><span class="logo-color">Web</span>Studio</a>
-        <nav class="header-nav">
+        <div class="container header-container">
+            <a class="header-logo" href="./index.html" lang="en"><span class="logo-color">Web</span>Studio</a>
+            <nav class="header-nav">
                 <ul class="header-nav-list list">
                     <li class="header-item">
-                        <a href="https://sap1065.github.io/goit-markup-hw-02/" class="header-link">Студия</a>
+                        <a href="./index.html" class="header-link">Студия</a>
                     </li>
                     <li class="header-item">
                         <a href="./portfolio.html" class="header-link">Портфолио</a>
@@ -26,22 +30,26 @@
                         <a href="" class="header-link">Контакты</a>
                     </li>
                 </ul>
-        </nav>
-        <ul class="contacts-list list">
-            <li class="contact-item">
-                <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
-            </li>
-            <li class="contact-item">
-                <a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a>
-            </li>
-        </ul>
+            </nav>
+            <ul class="contacts-list list">
+                <li class="contact-item">
+                    <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
+                </li>
+                <li class="contact-item">
+                    <a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a>
+                </li>
+            </ul>
+        </div>
     </header>
     <main>
-        <section class="hero">
+        <section class="hero section">
+            <div class="container">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
             <button class="hero-btn" type="button">Заказать услугу</button>
+            </div>
         </section>
-        <section class="hang">
+        <section class="hang section">
+            <div class="container">
             <h2 class="hang-title">Особенности</h2>
             <ul class="hang-list list">
                 <li class="hang-item">
@@ -65,49 +73,55 @@
                     </p>
                 </li>
             </ul>
+            </div>
         </section>
-        <section class="gallery">
+        <section class="gallery section">
+            <div class="container">
             <h2 class="gallery-title">Чем мы занимаемся</h2>
             <ul class="gallery-list list">
                 <li>
-                    <img src="./img/box1-min.jpg" alt="Печатает с помощью клавиатуры на планшете" width="294">
+                    <img src="./img/box1-min.jpg" alt="Печатает с помощью клавиатуры на планшете" height="294" width="370">
                 </li>
                 <li>
                     <img src="./img/box2-min.jpg"
-                    alt="Сравнивает виды рабочего стола которые изображены на мониторе ноутбука с тем который на телефоне" width="294">
+                    alt="Сравнивает виды рабочего стола которые изображены на мониторе ноутбука с тем который на телефоне" height="294" width="370">
                 </li>
                 <li>                
-                    <img src="./img/box3-min.jpg" alt="Смотрит цветовую палитру на планшете" width="294">
+                    <img src="./img/box3-min.jpg" alt="Смотрит цветовую палитру на планшете" height="294" width="370">
                 </li>
             </ul>
+            </div>
         </section>
-        <section class="specialists">
+        <section class="specialists section">
+            <div class="container">
             <h2 class="specialists-title">Наша команда</h2>
             <ul class="specialists-list list">
                 <li class="specialists-item">
-                    <img src="./img/img.1-min.jpg" alt="Первый специалист" width="260">
+                    <img src="./img/img.1-min.jpg" alt="Первый специалист" height="260" width="270">
                     <h3 class="specialists-pre-title">Игорь Демьяненко</h3>
                     <p lang="en" class="specialists-position">Product Designer</p>
                 </li>
                 <li class="specialists-item">
-                    <img src="./img/img.2-min.jpg" alt="Второй специалист" width="260">
+                    <img src="./img/img.2-min.jpg" alt="Второй специалист" height="260" width="270">
                     <h3 class="specialists-pre-title">Ольга Репина</h3>
                     <p lang="en" class="specialists-position">Frontend Developer</p>
                 </li>
                 <li class="specialists-item">
-                    <img src="./img/img.3-min.jpg" alt="Третий специалист" width="260">
+                    <img src="./img/img.3-min.jpg" alt="Третий специалист" height="260" width="270">
                     <h3 class="specialists-pre-title">Николай Тарасов</h3>
                     <p lang="en" class="specialists-position">Marketing</p>
                 </li>
                 <li class="specialists-item">
-                    <img src="./img/img.4-min.jpg" alt="Четвертый специалист" width="260">
+                    <img src="./img/img.4-min.jpg" alt="Четвертый специалист" height="260" width="270">
                     <h3 class="specialists-pre-title">Михаил Ермаков</h3>
                     <p lang="en" class="specialists-position">UI Designer</p>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
-    <footer class="footer">
+    <footer class="footer section">
+        <div class="container">
         <h2 class="footer-logo" lang="en"><span class="logo-color">Web</span>Studio</h2>
         <address>
             <ul  class="address-list list">
@@ -116,6 +130,7 @@
                 <li class="footer-address-item"><a href="tel:+380991111111" class="footer-link">+38 099 111 11 11</a></li>
             </ul>
         </address>
+        </div>
     </footer>
 </body>
 </html>
